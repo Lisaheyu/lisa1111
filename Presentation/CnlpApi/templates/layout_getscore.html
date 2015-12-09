@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<title>cnlp beta1.1</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='c.png') }}">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='jquery.dialog.js') }}"></script>
+<script type="text/javascript">
+function callback(sth)
+{
+   
+   $.ajax({
+	   
+      url: "http://192.168.81.207:8082/forgetscore",
+      type: 'POST',
+      dataType: 'html',
+      timeout: 10000,
+      error: function(){alert('Error loading document');},
+      success: function(result){
+	var mai=document.getElementById('dialog');
+    mai.scrollTop=mai.scrollHeight;
+    sayControl.val("");
+    sayControl.focus();
+	}
+    });
+   
+}
+
+    
+</script>
+<body>
+  {% block body %}{% endblock %}
+</body>

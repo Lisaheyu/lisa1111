@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+callback	templates/layout_weixin.html	/^function callback(sth)$/;"	f
+callback	templates/layout_wireless.html	/^function callback(sth)$/;"	f
+clicksubmit	templates/layout_weixin.html	/^ function clicksubmit() $/;"	f
+clicksubmit	templates/layout_wireless.html	/^ function clicksubmit() $/;"	f
+get_amap_info	CnlpApi.py	/^def get_amap_info(location, hotel_city):$/;"	f
+get_city_from_hotelname	CnlpApi.py	/^def get_city_from_hotelname(hotel_name, user_city):$/;"	f
+get_city_from_space	CnlpApi.py	/^def get_city_from_space(space, user_city):$/;"	f
+get_status_code	CnlpApi.py	/^def get_status_code(user_status):$/;"	f
+get_user_city	CnlpApi.py	/^def get_user_city(user_city):$/;"	f
+normalize	CnlpApi.py	/^def normalize(res_dict, catg, user_city=''):$/;"	f
+parse	CnlpApi.py	/^def parse():$/;"	f
+parseForWeixin	CnlpApi.py	/^def parseForWeixin():$/;"	f
+province_to_city	CnlpApi.py	/^def province_to_city(mess):$/;"	f
+weixin	CnlpApi.py	/^def weixin():$/;"	f
+wireless	CnlpApi.py	/^def wireless():$/;"	f

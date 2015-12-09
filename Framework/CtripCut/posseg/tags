@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+__cut	__init__.py	/^def __cut(sentence):$/;"	f	file:
+__cut_DAG	__init__.py	/^def __cut_DAG(sentence):$/;"	f	file:
+__cut_detail	__init__.py	/^def __cut_detail(sentence):$/;"	f	file:
+__init__	__init__.py	/^	def __init__(self,word,flag):$/;"	m	class:pair
+__repr__	__init__.py	/^	def __repr__(self):$/;"	m	class:pair	file:
+__str__	__init__.py	/^	def __str__(self):$/;"	m	class:pair	file:
+__unicode__	__init__.py	/^	def __unicode__(self):$/;"	m	class:pair	file:
+cut	__init__.py	/^def cut(sentence):$/;"	f
+encode	__init__.py	/^	def encode(self,arg):$/;"	m	class:pair
+get_top_states	viterbi.py	/^def get_top_states(t_state_v,K=4):$/;"	f
+load_model	__init__.py	/^def load_model(f_name):$/;"	f
+pair	__init__.py	/^class pair(object):$/;"	c
+viterbi	viterbi.py	/^def viterbi(obs, states, start_p, trans_p, emit_p):$/;"	f
